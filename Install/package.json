@@ -1,0 +1,39 @@
+{
+	"name" : "Test",
+	"display_name" : "Test",
+	"description" : "<p>Test<br></p>",
+	"module_type" : "packages",
+	"app_type" : "fintech",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-packages-tools-test",
+	"class" : "Apps\\Fintech\\Packages\\Test\\Test",
+	"dependencies" : 
+	{
+		"core" : [],
+		"apptype" : [],
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : 
+		{
+			"composer" : 
+			{
+				"require" : 
+				{
+					"markrogoyski/math-php" : "^2.*"
+				}
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"settings" : []
+}
