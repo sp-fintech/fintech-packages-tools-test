@@ -14,7 +14,7 @@ class Install extends BasePackage
 
     public function init()
     {
-        $this->database =
+        $this->databases =
             [
                 'fintech_test'  => [
                     'schema'    => new \Apps\Fintech\Packages\Test\Install\Schema\Test,
