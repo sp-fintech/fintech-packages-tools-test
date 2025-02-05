@@ -25,7 +25,7 @@ class Test
                     'first_name',
                     [
                         'type'          => Column::TYPE_VARCHAR,
-                        'size'          => 50,
+                        'size'          => 100,
                         'notNull'       => true,
                     ]
                 ),
@@ -33,7 +33,7 @@ class Test
                     'last_name',
                     [
                         'type'          => Column::TYPE_VARCHAR,
-                        'size'          => 50,
+                        'size'          => 100,
                         'notNull'       => true,
                     ]
                 )
@@ -58,7 +58,7 @@ class Test
         return
         [
             new Index(
-                'column_first_name_index',
+                'column_INDEX',
                 [
                     'first_name'
                 ],
