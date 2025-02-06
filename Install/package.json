@@ -22,7 +22,8 @@
 			{
 				"require" : 
 				{
-					"markrogoyski/math-php" : "^2.11.0"
+					"markrogoyski/math-php" : "^2.11.0",
+					"phpterminal/phpterminal" : "^1.1.4"
 				}
 			},
 			"config" : 
