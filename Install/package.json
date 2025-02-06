@@ -22,7 +22,7 @@
 			{
 				"require" : 
 				{
-					"markrogoyski/math-php" : "^2.10.0"
+					"markrogoyski/math-php" : "^2.11.0"
 				}
 			},
 			"config" : 
