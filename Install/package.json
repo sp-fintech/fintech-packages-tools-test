@@ -5,7 +5,7 @@
 	"module_type" : "packages",
 	"app_type" : "fintech",
 	"category" : "tools",
-	"version" : "0.5.0",
+	"version" : "0.6.0",
 	"repo" : "https://github.com/sp-fintech/fintech-packages-tools-test",
 	"class" : "Apps\\Fintech\\Packages\\Test\\Test",
 	"dependencies" : 
@@ -22,7 +22,8 @@
 			{
 				"require" : 
 				{
-					"markrogoyski/math-php" : "^2.11.0"
+					"markrogoyski/math-php" : "^2.11.0",
+					"phpterminal/phpterminal" : "^1.1.4"
 				}
 			},
 			"config" : 
