@@ -61,10 +61,14 @@ class Install extends BasePackage
         $this->dbInstaller->truncate($this->databases);
     }
 
-    public function uninstall()
+    public function uninstall($remove = false)
     {
-        //Check Relationship
-        //Drop Table(s)
+        if ($remove) {
+            //Check Relationship
+            //Drop Table(s)
+            $this->dbInstaller->uninstallDb($this->databases);
+        }
+
         return true;
     }
 }
