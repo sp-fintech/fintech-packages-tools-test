@@ -29,7 +29,7 @@
 			{
 				"require" : 
 				{
-					"markrogoyski/math-php" : "^2.*",
+					"markrogoyski/math-php" : "2.*",
 					"moneyphp/money" : "^4.6"
 				}
 			},
