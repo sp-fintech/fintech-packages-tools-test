@@ -10,20 +10,27 @@
 	"class" : "Apps\\Fintech\\Packages\\Test\\Test",
 	"dependencies" : 
 	{
-		"core" : [],
-		"apptype" : [],
-		"components" : [],
-		"packages" : [],
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.9",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
 		"middlewares" : [],
-		"views" : [],
-		"external" : 
+		"externals" : 
 		{
 			"composer" : 
 			{
 				"require" : 
 				{
-					"markrogoyski/math-php" : "2.*",
-					"phpterminal/phpterminal" : "^1.1.4"
+					"markrogoyski/math-php" : "^2.*",
+					"moneyphp/money" : "^4.6"
 				}
 			},
 			"config" : 
